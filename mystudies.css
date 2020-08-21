@@ -311,9 +311,9 @@ transition:all 0.3s ease-in-out;
   .year h1{font-size: 130px;}
   .hidden{left:0%;}
   .popup-content{
-    width: 70%;
+    width: 90%;
     height:50%;
-    font-size: 32px;
+    font-size: 28px;
     margin: 30% auto;}
   .close{font-size: 120px;}
   #breakcol{transform: translateY(20%);}}
