@@ -5,7 +5,7 @@
 
 /*BACKGROUND*/
 body{
-  background-image: url(../IMAGES/backgroundtriangle.svg);
+  background-image: url(IMAGES/backgroundtriangle.svg);
   background-size: cover;
   background-attachment: fixed;
   padding:0;
@@ -100,9 +100,9 @@ body{
   position: relative;
   background-size: cover;
   height:500px;}
-#wide1{background-image:url(../IMAGES/wideimage1.jpg);}
-#wide2{background-image:url(../IMAGES/wideimage2.jpg);}
-#wide3{background-image:url(../IMAGES/wideimage3.jpg);}
+#wide1{background-image:url(IMAGES/wideimage1.jpg);}
+#wide2{background-image:url(IMAGES/wideimage2.jpg);}
+#wide3{background-image:url(IMAGES/wideimage3.jpg);}
 
 /*--------------BOXES SETUP-----------------*/
 .year{
@@ -241,16 +241,16 @@ cite {
 
 #prev { 
   left:0;
-  background-image: url('../IMAGES/arrow-left-over.svg'); }
+  background-image: url('IMAGES/arrow-left-over.svg'); }
 
-#prev:hover { background-image: url('../IMAGES/arrow-left-out.svg'); }
+#prev:hover { background-image: url('IMAGES/arrow-left-out.svg'); }
 
 #next {
   right: 0;
-  background-image: url('../IMAGES/arrow-right-over.svg');
+  background-image: url('IMAGES/arrow-right-over.svg');
 }
 
-#next:hover { background-image: url('../IMAGES/arrow-right-out.svg'); }
+#next:hover { background-image: url('IMAGES/arrow-right-out.svg'); }
 
 /*--------------BOX 3-----------------*/
 .column {
