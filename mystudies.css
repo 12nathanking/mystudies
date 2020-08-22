@@ -320,6 +320,7 @@ transition:all 0.3s ease-in-out;
     width: 90%;
     height:60%;
     font-size: 30px;
-    margin: 30% auto;}
+    margin: 30% auto;
+    margin-top:200px;}
   .close{font-size: 120px;}
   #breakcol{transform: translateY(500px);}}
