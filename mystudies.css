@@ -139,7 +139,9 @@ h1{margin:0;}
   height:2200px;
   padding-top:70px;
   border-radius: 0px 0px 20px 20px;}
-#ref{text-align: center;}
+#ref{
+  text-align: center;
+  color: grey;}
 
 /*--------------BOX 1-----------------*/
 /*POSITION IN CONTAINER*/
