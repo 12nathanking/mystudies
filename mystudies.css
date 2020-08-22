@@ -321,6 +321,6 @@ transition:all 0.3s ease-in-out;
     height:60%;
     font-size: 30px;
     margin: 30% auto;
-    margin-top:200px;}
+    margin-top:50%;}
   .close{font-size: 120px;}
   #breakcol{transform: translateY(500px);}}
