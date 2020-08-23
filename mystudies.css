@@ -205,16 +205,16 @@ h1{margin:0;}
 
 #prev { 
   left:0;
-  background-image: url(IMAGES/arrow-left-over.svg'); }
+  background-image: url(IMAGES/arrow-left-over.svg); }
 
-#prev:hover { background-image: url(IMAGES/arrow-left-out.svg'); }
+#prev:hover { background-image: url(IMAGES/arrow-left-out.svg); }
 
 #next {
   right: 0;
-  background-image: url(IMAGES/arrow-right-over.svg');
+  background-image: url(IMAGES/arrow-right-over.svg);
 }
 
-#next:hover { background-image: url(IMAGES/arrow-right-out.svg'); }
+#next:hover { background-image: url(IMAGES/arrow-right-out.svg); }
 
 /*--------------BOX 3-----------------*/
 .column {
