@@ -22,10 +22,11 @@ body{
 /*TITLE PART WITH EXETER LOGO*/
 #title{
   width: 100%;
-  height: 650px;
+  height: 1200px;
   background-color:rgb(18, 140, 161);
   transform: translateY(150px);
-  border-radius: 20px;}
+  border-radius: 20px 20px 0px 0px;
+  padding:20px;}
 #logo{
   width: 60%;
   display:block;
@@ -34,20 +35,15 @@ body{
   animation:zoom 5s;
   animation-fill-mode: forwards;
   margin: 0 auto;
-  transform: translateY(38%);}
+  transform: translateY(20%);}
 @keyframes zoom {
   100%{opacity:1;}}
-
-/*LINKS*/
-#context{
-  height:400px;
-  width:100%;
-  padding:30px;
-  background-color: rgb(18, 140, 161);
-  border-radius: 20px 20px 0px 0px;}
+#context{transform:translateY(200px);}
 .details{
   text-align: center;
-  transform:translateY(10%);}
+  transform:translateY(60px);}
+
+/*LINKS*/
 .break{
   width:100%;
   height:200px;}
@@ -126,12 +122,12 @@ h1{margin:0;}
 #first{
   background-color: rgb(160, 215, 216);
   color: white;
-  height:1700px;
+  height:1650px;
   padding-top:50px;}
 #second{
   background-color: rgb(18, 140, 161);
   color:white;
-  height:1200px;
+  height:1250px;
   padding-top: 50px;}
 #third{
   background-color: rgb(160, 215, 216);
@@ -144,36 +140,21 @@ h1{margin:0;}
   color: grey;}
 
 /*--------------BOX 1-----------------*/
-/*POSITION IN CONTAINER*/
-.hidden{
-position: relative;
-padding: 20px;
-padding-top: 0;
-left:100%;
-width:100%;
-height:300px;
-font-size: 30px;
-background-color: rgb(160, 215, 216);
-color:white;
-transform: translateY(-30px);
--webkit-transition:all 0.3s ease-in-out;
--moz-transition:all 0.3s ease-in-out;
--o-transition:all 0.3s ease-in-out;
-transition:all 0.3s ease-in-out;
-}
-
-/*ALL OF THE TRIGGERS TO MAKE SLIDES MOVE*/
-.trigger{
+.module{
   margin: 0 auto;
   width:50%;
   font-size: 30px;
   text-align: center;}
-
-/*ALL OF THE TRIGGER MOVEMENTS*/
-.trigger:hover + .hidden{left:0%;}
-.trigger:hover + #slide2{left:0%;}
-.trigger:hover + #slide3{left:0%;}
-.trigger:hover + #slide4{left:0%;}
+.content{
+  position: relative;
+  padding: 20px;
+  padding-top: 0;
+  left:0%;
+  width:100%;
+  height:300px;
+  font-size: 30px;
+  color:white;
+  transform: translateY(-30px);}
 
 /*--------------BOX 2-----------------*/
 .container {position: relative;}
@@ -224,16 +205,16 @@ transition:all 0.3s ease-in-out;
 
 #prev { 
   left:0;
-  background-image: url('IMAGES/arrow-left-over.svg'); }
+  background-image: url(IMAGES/arrow-left-over.svg'); }
 
-#prev:hover { background-image: url('IMAGES/arrow-left-out.svg'); }
+#prev:hover { background-image: url(IMAGES/arrow-left-out.svg'); }
 
 #next {
   right: 0;
-  background-image: url('IMAGES/arrow-right-over.svg');
+  background-image: url(IMAGES/arrow-right-over.svg');
 }
 
-#next:hover { background-image: url('IMAGES/arrow-right-out.svg'); }
+#next:hover { background-image: url(IMAGES/arrow-right-out.svg'); }
 
 /*--------------BOX 3-----------------*/
 .column {
@@ -284,12 +265,12 @@ transition:all 0.3s ease-in-out;
   height:900px;
   transform:translateY(-27%);
   color:rgb(18, 140, 161);
-  column-count:3;
-  column-gap: 40px;
-  column-rule: 4px double rgb(18, 140, 161);
-  font-weight: 100;
-}
-.textcol{display: inline-block;}
+  font-weight: 100;}
+.textcol{float: left;
+  width: 33.3%;
+  height:100%;
+  padding-left:12px;
+  padding-right:12px;}
 
 /* CLOSE BUTTON*/
 .close {
@@ -315,7 +296,6 @@ transition:all 0.3s ease-in-out;
     height:500px;
     width:500px;}
   .year h1{font-size: 130px;}
-  .hidden{left:0%;}
   .popup-content{
     width: 90%;
     height:60%;
@@ -323,4 +303,4 @@ transition:all 0.3s ease-in-out;
     margin: 30% auto;
     margin-top:50%;}
   .close{font-size: 120px;}
-  #breakcol{transform: translateY(500px);}}
+  #breakcol{transform:translateY(50%)}}
